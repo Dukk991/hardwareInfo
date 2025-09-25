@@ -23,6 +23,9 @@ dependencies {
 
     // This dependency is used by the application.
     implementation(libs.guava)
+
+    //OSHI
+    implementation("com.github.oshi:oshi-core:6.9.0")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
